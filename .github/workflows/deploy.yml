@@ -40,7 +40,7 @@ jobs:
       - name: Test unit
         run: yarn test:unit
 
-      - name: Build pade
+      - name: Build page
         run: yarn build
         env:
           NODE_ENV: production
